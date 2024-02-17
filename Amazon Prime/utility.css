@@ -1,0 +1,76 @@
+@import url('https://example.com/path/to/amazon-ember-font.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+.grey{
+    color: #b2b9b9;
+    list-style: none;
+}
+
+.grey1{
+    color: #b2b9b9;
+    list-style: none;
+}
+
+.p-1{
+    padding: 10px 10px
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+.p-0{
+    padding: 0px 5px
+}
+
+.p-3{
+    padding: 1px 15px;
+}
+
+.p-2{
+    padding: 5px 30px;
+} 
+
+.black{
+    background-color: black;
+}
+
+.font{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 540;
+}
+
+.text{
+    text-wrap: nowrap;
+}
+
+@media (max-width: 550px) {
+    .p-1{
+        padding: 5px 5px;
+    }
+
+    .p-0{
+        padding: 0 5px;
+    }
+
+    .grey1{
+        color: black;
+    }
+    .p-3{
+        padding: 0px 12px ;
+    }
+    
+}
+
